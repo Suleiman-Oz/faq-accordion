@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+}
+body {
+    background-color: antiquewhite;
+}
+
+/* Container Accordion Style */
+
+.container-accordion {
+    width: 100%;
+    max-height: 300px;
+    background-image: url(assets/images/background-pattern-mobile.svg);
+    position: fixed;
+    top: 0;
+}
+
+/* Accordion Style */
+
+.accordion {
+    background-color: hsl(0, 100%, 100%);
+    margin: 200px 20px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: hsl(292, 42%, 14%);
+} 
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.header img {
+    width: 24px;
+}
+.header span {
+    font-size: 38px;
+    font-weight: 700;
+}
+/* Item Style */
+
+.item {
+    padding: 15px 0;
+    border-bottom: 2px solid hsl(275, 100%, 97%);
+}
+.item:last-child {
+    border: none;
+}
+
+/* Title Style */
+
+.title {
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-weight: 600;
+}
+
+/* Content Style */
+
+.content {
+    margin: 15px 0;
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
+
+@media screen and (min-width:375px) {
+    .container-accordion {
+    /* max-height: 300px; */
+    background-image: url(assets/images/background-pattern-desktop.svg);
+}
+.accordion {
+    width: 50%;
+    margin: 200px auto;
+}
+}
