@@ -46,7 +46,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [https://github.com/Suleiman-Oz/faq-accordion](https://your-solution-url.com)
-- Live Site URL: [https://https//suleiman-oz.github.io/faq-accordion/](https://your-live-site-url.com)
+- Live Site URL: [https//suleiman-oz.github.io/faq-accordion/](https://your-live-site-url.com)
 
 ## My process
 
